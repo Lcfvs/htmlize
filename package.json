@@ -1,0 +1,27 @@
+{
+  "name": "htmlize",
+  "version": "1.0.0",
+  "description": "A xmldom extension providing some useful features, on html documents, like in the browser, under the MIT licence",
+  "scripts": {
+    "start": "node --harmony_proxies index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lcfvs/htmlize.git"
+  },
+  "keywords": ["xmldom", "html", "helper"],
+  "author": "Lcf.vs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lcfvs/htmlize/issues"
+  },
+  "homepage": "https://github.com/Lcfvs/htmlize#readme",
+  "dependencies": {
+    "sizzlify": "^1.0.2",
+    "xmldom": "^0.1.22"
+  },
+  "engines": {
+    "node": "5.x.x"
+  }
+}
